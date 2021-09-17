@@ -80,6 +80,5 @@ const makeList = (worksArray) => {
     });
     document.querySelector("#add-work-input").value = "";
     saveWorks();
-    console.log(works);
 }
 
