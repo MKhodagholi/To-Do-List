@@ -1,0 +1,38 @@
+#works {
+    width: 90%;
+    font-size: 36px;
+}
+
+.div-work {
+    display: flex;
+    padding: 20px;
+    border-bottom: 2px solid violet;
+}
+
+.div-work p {
+    flex-grow: 4;
+}
+
+.div-button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa {
+    color: black;
+    cursor: pointer;
+}
+
+
+.div-work:hover .fa {
+    color: white;
+}
+
+.fa.fa-trash:hover {
+    color: red;
+}
+
+.fa.fa-check:hover {
+    color: green;
+}
